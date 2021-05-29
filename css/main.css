@@ -1,0 +1,171 @@
+/***CONTAINER***/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1,h2,h3{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+}
+
+/***HEADER***/
+
+header{
+    border-bottom: 3px solid #78a155;
+    height: 110px;
+    margin: 0 auto;
+}
+
+header h1{
+    float: left;
+    margin: 0 auto;
+    padding: 35px 0;
+}
+
+header h1 span{
+    color:#78a155;
+}
+
+header nav{
+    float: right;
+    padding: 45px 0;
+    
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0 10px;
+    display: inline;
+}
+
+header nav ul li a{
+    color: #78a155;
+    text-decoration: none;
+}
+
+/***TOP SECTION***/
+
+.top-section {
+    margin: 0 auto;
+    clear: both;
+}
+
+.main-image{
+    height: auto;
+    float:left;
+}
+
+.main-image img {
+    border-bottom: 3px solid #78a155;
+}
+
+.main-title{
+    height: auto;
+    float: left;
+    line-height: 24px;
+    padding: 10px 0;
+}
+
+.main-title h2{
+    text-align: left;
+    padding: 5px 0;
+    color: #78a155;
+}
+
+/*** BOTTOM SECTION***/
+
+.bottom-section {
+    margin: 0 auto;
+    clear: both;
+    border-top: 1px solid #777777;
+}
+
+.section-one, .section-two, .section-three {
+    width: 399px;
+    height: auto;
+    float:left;
+}
+
+.section-one h3{
+    padding: 10px 0;
+}
+
+.section-two{
+    border-right: 1px solid #777777;
+    border-left: 1px solid #777777;
+}
+
+.section-two h3, .section-three h3{
+    padding: 10px 30px;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li{
+    padding: 10px 0;
+    color: #78a155;
+}
+
+.reviews {
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0 20px 5px 30px;
+}
+
+.address{
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 30px;
+}
+
+/***FOOTER***/
+
+footer{
+    border-top: 1px solid #777777;
+    height: 50px;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer span{
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+    color:#78a155;
+    font-size: 20px;
+
+}
